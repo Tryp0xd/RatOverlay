@@ -19,7 +19,21 @@ This may be considered a cheat as its ESP but I consider this a gray area as you
 Plays a sound based on your desired interval in ticks. Default sound is `note.pling` but you can use [a list of sounds here](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/mapping-and-modding-tutorials/2213619-1-8-all-playsound-sound-arguments).
 You cannot set the pitch or volume but if you so desire, you can always modify the code to your liking!
 
+# Commands/How To Use
 
+**/ro** -> Config  
+**/romoveguis** -> Move GUI(s)  
+
+***Debug Commands - To be removed**
+**/roclearplayers** - Clears playerArr Array
+**/rotestadd formattedName magicFind ticks type** - Adds a player to the playerArr array.
+**/rogetoverlay** - Prints the structure of the overlays in /ct console js
+
+Cheese buff timer works at all times, you collect the cheese and it lists the person, if you receive it lists who gave it to you.  
+Line and box to cheese needs to be enabled through -> /ro | A race condition can happen where Hypixel hides other people's cheese but it can flash for a second causing the box to show up for a split second.  
+Sound Alert can be enabled through -> /ro | If you put an incorrect sound then the thing will simply not work.
+
+-------------------------------------------------------------
 
 # Planned Features
 
