@@ -24,14 +24,14 @@ You cannot set the pitch or volume but if you so desire, you can always modify t
 **/ro** -> Config  
 **/romoveguis** -> Move GUI(s)  
 
-***Debug Commands - To be removed**
-**/roclearplayers** - Clears playerArr Array
-**/rotestadd formattedName magicFind ticks type** - Adds a player to the playerArr array.
-**/rogetoverlay** - Prints the structure of the overlays in /ct console js
+**Debug Commands - To be removed**  
+**/roclearplayers** - Clears playerArr Array  
+**/rotestadd formattedName magicFind ticks type** - Adds a player to the playerArr array.  
+**/rogetoverlay** - Prints the structure of the overlays in /ct console js  
 
 Cheese buff timer works at all times, you collect the cheese and it lists the person, if you receive it lists who gave it to you.  
 Line and box to cheese needs to be enabled through -> /ro | A race condition can happen where Hypixel hides other people's cheese but it can flash for a second causing the box to show up for a split second.  
-Sound Alert can be enabled through -> /ro | If you put an incorrect sound then the thing will simply not work.
+Sound Alert can be enabled through -> /ro | If you put an incorrect sound then the thing will simply not work.  
 
 -------------------------------------------------------------
 
